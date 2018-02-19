@@ -1,0 +1,25 @@
+.dropdown-menu-right {
+    right: 0;
+    left: auto;
+}
+
+/* change the background color */
+.navbar-custom {
+    background-color: #202020;
+    height: 45px;
+    }
+
+.btn-custom{
+  padding: 5px 100px;
+}
+
+.btn-google{
+    background-image: url("https://developers.google.com/accounts/images/sign-in-with-google.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-content: center;
+    height: 40px;
+    width: 240px;
+    margin: auto;
+    padding: 0px 0px;
+}
