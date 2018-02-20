@@ -1,3 +1,16 @@
-<p>
-  lista works!
-</p>
+
+<div class="card" style="width: 18rem; background-color:darkblue">
+        <h5 class="card-title" style="text-align:center; color:white">Lista de Tarefas</h5>
+    <div class="card-body">
+        <div class="col">
+            <div class="input-group mb-3" *ngFor="let tarefa of tarefas; let i = index">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">
+                      <input type="checkbox" aria-label="Checkbox for following text input" (click)="removerTarefa(i)">
+                    </div>
+                </div>
+                <input type="text" class="form-control" aria-label="Text input with checkbox" (keydown.enter)="inserirTarefa()">
+            </div>
+        </div>
+    </div>
+  </div>
